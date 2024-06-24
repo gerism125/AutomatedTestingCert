@@ -1,10 +1,13 @@
-# Stickerfy
+# AutomatedTestingCert
+Project for LambdaTest Test Automation Professional Cerificate
+
+## Stickerfy
 
 The application can be found at https://stickerfy.herokuapp.com/
 
-## Run the application locally
+### Run the application locally
 
-### Prerequisites
+#### Prerequisites
 
 You need the following properly installed before being able to run this application:
 
@@ -12,7 +15,7 @@ You need the following properly installed before being able to run this applicat
 - [NPM](https://www.npmjs.com/get-npm) (which is bundled with Node)
 - [MongoDB Community Edition](https://docs.mongodb.com/manual/installation/#mongodb-community-edition)
 
-#### Get started
+##### Get started
 
 1. Clone this repository
 
@@ -56,19 +59,19 @@ You need the following properly installed before being able to run this applicat
 
 Server will start at: http://localhost:3000
 
-### Run mocha tests
+#### Run mocha tests
 
-#### Unit tests
+##### Unit tests
 
 - to run: `npm run unit-test`
 - do not require the dev server running
 
-#### Integration tests
+##### Integration tests
 
 - to run: `npm run integration-test`
 - start up the dev server when running
 
-#### UI tests
+##### UI tests
 
 - to run: `npm run ui-test`
 - note: dev server must be started by running `npm run dev` beforehand
