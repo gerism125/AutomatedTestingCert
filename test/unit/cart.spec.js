@@ -23,6 +23,12 @@ describe('Shopping cart', function() {
       assert.equal(cart.totalPrice, 5);
     });
 
+    it('adds multiple stickers to cart', function(){
+      cart.add(product, product.id);
+      cart.add(product, product.id);
+      assert.equal(cart.totalPrice, 10);
+    })
+
     it('removes a sticker from the cart', function() {
       cart.add(product, product.id);
       cart.reduceByOne(product.id);
