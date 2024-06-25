@@ -44,7 +44,7 @@ You need the following properly installed before being able to run this applicat
     set MONGODB_URI=mongodb://localhost:27017/shopping
 ```
 
-or
+or in PowerShell:
 
 ``` shell
     $env:MONGODB_URI = "mongodb://localhost:27017/shopping"
@@ -58,7 +58,7 @@ or
     brew services start mongodb-community@5.0
 ```
 
-5. Populate shopping database
+5. Populate shopping database (only needs to be run once)
 
 ``` shell
     node seed/product-seeder.js
